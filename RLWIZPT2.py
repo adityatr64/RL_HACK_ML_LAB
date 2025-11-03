@@ -370,7 +370,7 @@ class DQNHMMAgent:
     
     def train(self, 
               words: List[str], 
-              num_episodes: int = 10000,
+              num_episodes: int = 3000,
               training_steps_per_episode: int = 8,
               batch_size: int = 64):
         
@@ -496,7 +496,7 @@ if __name__ == "__main__":
         print("\n[4] Training...")
         agent.train(
             words=train_words,
-            num_episodes=10000,
+            num_episodes=3000,
             training_steps_per_episode=8,
             batch_size=64
         )
