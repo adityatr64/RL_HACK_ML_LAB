@@ -140,7 +140,3 @@ This will:
 ## 🧠 Authors & Acknowledgments
 
 Developed as part of an **engineering project** exploring the fusion of **probabilistic models** and **deep reinforcement learning** for natural-language games.
-
----
-
-Would you like me to add a **"Results" section** (e.g., plots or metrics formatting) or a **"Citation / References" section** for academic submission style?
