@@ -53,7 +53,7 @@ This is a **Reinforcement Learning** agent.
 
 The agent’s final choice is a **weighted blend** of the HMM’s probabilities and the DQN’s Q-values:
 
-[\text{final_score} = (1 - \text{HMM_WEIGHT}) \times \text{DQN_Q_Values} + (\text{HMM_WEIGHT}) \times \text{HMM_Probabilities}]
+`final_score = (1 - HMM_WEIGHT) * DQN_Q_Values + (HMM_WEIGHT) * HMM_Probabilities`
 
 This allows the agent to balance:
 
